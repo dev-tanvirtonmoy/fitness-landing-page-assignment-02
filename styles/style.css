@@ -6,7 +6,6 @@
 
 /* ---------- Common CSS for webpage start from here ---------- */
 * {
-    /* font-family: 'Miama', sans-serif; */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -17,6 +16,9 @@ body {
     scroll-behavior: smooth;
     font-family: "Inter", serif;
     background: var(--primary-bg);
+}
+img {
+    display: flex;
 }
 a,
 a:hover {
@@ -45,11 +47,40 @@ li {
     width: 90%;
     margin: 0 auto;
 }
-
+p {
+    color: var(--text-color-1);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.btn-primary {
+    padding: 16px 36px;
+    border-radius: 42px;
+    color: var(--bg-white);
+    background: var(--tartiary-bg);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid var(--tartiary-bg);
+    display: block;
+}
+.btn-outline {
+    padding: 16px 36px;
+    border-radius: 42px;
+    color: var(--bg-white);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 22px;
+    border: 1px solid #fff;
+    background: transparent;
+    display: block;
+}
 /* ---------- Navbar part styles start from here ---------- */
 header {
-    background: linear-gradient(0deg, #111 0%, #777 100%);
-    min-height: ;
+    /* background: #fff; */
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    min-height: 500px;
 }
 nav {
     display: flex;
@@ -89,5 +120,30 @@ nav .hamburger-manu {
 /* ---------- Navbar part styles end here ---------- */
 
 /* ---------- Banner section styles start from here ---------- */
-
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .banner-content {
+    max-width: 520px;
+}
+.banner .banner-content .banner-title {
+    color: var(--bg-white);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 28px;
+}
+.banner .banner-content .banner-title > span{
+    font-weight: 400;
+    font-family: 'Miama', sans-serif;
+    font-family: ;
+    letter-spacing: 3px;
+}
+.banner .btn-container {
+    display: flex;
+    gap: 14px;
+    margin-top: 28px;
+}
 /* ---------- Banner section styles end here ---------- */
