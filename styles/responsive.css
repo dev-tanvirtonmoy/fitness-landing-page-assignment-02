@@ -1,11 +1,26 @@
 /* ---------- Mobile view responsive CSS start from here ---------- */
 @media screen and (max-width: 576px) {
-    
+    /* ---------- Navbar start from here ---------- */
+    header nav .nav-links {
+        display: none;
+    }
+    header nav .hamburger-manu {
+        display: block;
+    }
+    header nav .hamburger-manu > svg {
+        /* height: 24px;
+        width: 24px; */
+    }
+    /* ---------- Navbar end here ---------- */
 }
 /* ---------- Mobile view responsive CSS end here ---------- */
 
 /* ---------- Tablet view responsive CSS start from here ---------- */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+    /* ---------- Navbar start from here ---------- */
+    header nav .nav-links li a {
+        margin-right: 20px;
+    }
+    /* ---------- Navbar end here ---------- */
 }
 /* ---------- Tablet view responsive CSS end here ---------- */
