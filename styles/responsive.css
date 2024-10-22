@@ -69,6 +69,22 @@
         width: 100%;
     }
     /* ---------- Run end here ---------- */
+    /* ---------- Footer start from here ---------- */
+    footer .footer-item-container {
+        flex-direction: column;
+        padding: 38px;
+        gap: 30px;
+    }
+    footer .container .footer-item-container .footer-text {
+        width: 100%;
+    }
+    footer .container .footer-item-container .footer-link {
+        margin-bottom: 100px;
+    }
+    footer .container .copyright {
+        text-align: start;
+    }
+    /* ---------- Footer end here ---------- */
 }
 /* ---------- Mobile view responsive CSS end here ---------- */
 
@@ -100,5 +116,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
     /* ---------- Habit end here ---------- */
+    main .run {
+        gap: 40px;
+    }
+    /* ---------- Run start from here ---------- */
+
+    /* ---------- Run end here ---------- */
 }
 /* ---------- Tablet view responsive CSS end here ---------- */

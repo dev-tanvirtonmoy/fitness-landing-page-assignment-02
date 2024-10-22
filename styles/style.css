@@ -40,6 +40,7 @@ li {
     --primary-bg:#111;
     --secondary-bg:#222;
     --tartiary-bg:#e6533c;
+    --footer-bg:rgba(255, 255, 255, 0.10);
     --text-color-1: rgba(255, 255, 255, 0.50);
     --bg-white: #fff;
 }
@@ -268,3 +269,56 @@ nav .hamburger-manu {
     border-radius: 18px;
 }
 /* ---------- Run section end here ---------- */
+
+
+/* ---------- Footer section styles start from here ---------- */
+footer {
+    background: var(--footer-bg);
+}
+footer .footer-item-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+footer .footer-item-container .footer-text {
+    width: 443px;
+}
+footer .footer-text .footer-logo {
+    color: var(--tartiary-bg);
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+footer .footer-links h3 {
+    color: var(--bg-white);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+footer .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .footer-links ul li a{
+    color: var(--text-color-1);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+footer .copyright {
+    text-align: center;
+    padding: 30px 0;
+    color: var(--text-color-1);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+/* ---------- Footer section styles end here ---------- */
