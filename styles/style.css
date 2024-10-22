@@ -19,10 +19,14 @@ body {
 }
 img {
     display: flex;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 a,
 a:hover {
     text-decoration: none;
+    display: block;
 }
 ol,
 ul,
@@ -78,9 +82,7 @@ p {
 }
 /* ---------- Navbar part styles start from here ---------- */
 header {
-    /* background: #fff; */
-    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
-    min-height: 500px;
+    background: linear-gradient(180deg, #000000 0%, #4a4a4a 100%);
 }
 nav {
     display: flex;
@@ -106,7 +108,6 @@ nav .nav-links > li > a {
     line-height: 120%;
     text-transform: capitalize;
     color: var(--bg-white);
-    display: block;
     margin-right: 40px;
 }
 nav .nav-links > li > .active {
@@ -126,11 +127,11 @@ nav .hamburger-manu {
     align-items: center;
 }
 .banner .banner-content {
-    max-width: 520px;
+    width: 520px;
 }
 .banner .banner-content .banner-title {
     color: var(--bg-white);
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 28px;
@@ -145,5 +146,53 @@ nav .hamburger-manu {
     display: flex;
     gap: 14px;
     margin-top: 28px;
+}
+.banner .banner-img {
+    position: relative;
+}
+.banner .banner-img > .bg-img-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: -80px;
+}
+.banner .banner-img > .bg-img-tag > .icon {
+    width: 40px;
+    height: 40px;
+    background: var(--tartiary-bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-img > .bg-img-tag > .icon > i {
+    font-size: 20px;
+    color: var(--bg-white);
+}
+.banner .banner-img > .bg-img-tag > .text > span:first-child {
+    display: block;
+    color: #fafaf9;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+.banner .banner-img > .bg-img-tag > .text > span:last-child {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.banner .banner-img > .left {
+    transform: translateY(-240px) translateX(300px);
 }
 /* ---------- Banner section styles end here ---------- */
