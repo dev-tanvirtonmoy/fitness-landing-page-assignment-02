@@ -58,6 +58,17 @@
         margin-inline: auto;
     }
     /* ---------- Habit end here ---------- */
+
+    /* ---------- Run start from here ---------- */
+    main .run {
+        flex-direction: column;
+        gap: 31px;
+    }
+    main .run .run-content > .btn-primary {
+        padding: 16px 0;
+        width: 100%;
+    }
+    /* ---------- Run end here ---------- */
 }
 /* ---------- Mobile view responsive CSS end here ---------- */
 
