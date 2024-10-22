@@ -1,5 +1,9 @@
 /* ---------- Mobile view responsive CSS start from here ---------- */
 @media screen and (max-width: 576px) {
+    body .section-heading h2 {
+        font-size: 2rem;
+    }
+
     /* ---------- Navbar start from here ---------- */
     header nav .nav-links {
         display: none;
@@ -35,6 +39,25 @@
         transform: translateY(-180px) translateX(220px);
     }
     /* ---------- Banner end here ---------- */
+
+    /* ---------- Habit start here ---------- */
+    main .habit {
+        padding: 50px 0;
+    }
+    main .habit .container > .section-heading {
+        width: 100%;
+    }
+    main .habit .container > .section-heading h3 {
+
+    }
+    main .habit .habit-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main .habit .habit-items > .item {
+        width: 231px;
+        margin-inline: auto;
+    }
+    /* ---------- Habit end here ---------- */
 }
 /* ---------- Mobile view responsive CSS end here ---------- */
 
@@ -57,5 +80,14 @@
         transform: translateY(-320px) translateX(270px);
     }
     /* ---------- Banner end here ---------- */
+
+    /* ---------- Habit start here ---------- */
+    main .habit .container > .section-heading {
+        width: 475px;
+    }
+    main .habit .habit-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* ---------- Habit end here ---------- */
 }
 /* ---------- Tablet view responsive CSS end here ---------- */

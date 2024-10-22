@@ -63,7 +63,7 @@ p {
     border-radius: 42px;
     color: var(--bg-white);
     background: var(--tartiary-bg);
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 22px;
     border: 1px solid var(--tartiary-bg);
@@ -73,12 +73,19 @@ p {
     padding: 16px 36px;
     border-radius: 42px;
     color: var(--bg-white);
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 22px;
     border: 1px solid #fff;
     background: transparent;
     display: block;
+}
+.section-heading h2 {
+    color: var(--bg-white);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
 }
 /* ---------- Navbar part styles start from here ---------- */
 header {
@@ -196,3 +203,40 @@ nav .hamburger-manu {
     transform: translateY(-240px) translateX(300px);
 }
 /* ---------- Banner section styles end here ---------- */
+
+/* ---------- Habit section styles from here ---------- */
+.habit {
+    padding: 100px 0;
+}
+.habit .container > .section-heading {
+    text-align: center;
+    width: 671px;
+    margin-inline: auto;
+}
+.habit .habit-items {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.habit .habit-items > .item {
+    text-align: center;
+}
+.habit .habit-items > .item > .item-img > img {
+    height: 180px;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.10);
+    margin-bottom: 30px;
+}
+.habit .habit-items > .item > h3 {
+    color: var(--bg-white);
+    font-size: 18px
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+/* ---------- Habit section end here ---------- */
