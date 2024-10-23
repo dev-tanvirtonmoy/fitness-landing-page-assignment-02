@@ -270,87 +270,12 @@ nav .hamburger-manu {
 }
 /* ---------- Run section end here ---------- */
 
-/* ---------- Team section styles start from here ---------- */
-.team {
-    margin: 80px 0;
-}
-.team > .section-heading {
-    text-align: center;
-    width: 670px;
-    margin-inline: auto;
-    margin-bottom: 50px;
-}
-.team .team-card-container {
-    padding: 20px;
-    background: var(--footer-bg);
-    border-radius: 18px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-.team .team-card-container .card {
-    background: url(../images/trainer1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 18px;
-    height: 272px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: end;
-    padding: 0 0 16px 20px;
-}
-.team .team-card-container .card h4 {
-    color: var(--bg-white);
-    font-size: 1.25rem;
-    font-weight: 900;
-    line-height: 120%;
-    margin-bottom: 4px;
-}
-.team .team-card-container .card p {
-    color: var(--text-color-1);
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 120%;
-}
-.team .team-card-container .card2 {
-    background: url(../images/trainer2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.team .team-card-container .card3 {
-    background: url(../images/trainer3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.team .team-card-container .card4 {
-    background: url(../images/trainer4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.team .team-card-container .card5 {
-    background: url(../images/trainer5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.team .team-card-container .card6 {
-    background: url(../images/trainer6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-/* ---------- Team section styles end here ---------- */
-
 /* ---------- BMI calculator section styles start from here ---------- */
 .bmi-calc > .container > .section-heading {
     width: 671px;
     margin-left: 190px;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 .bmi-calc .bmi-calc-container {
     padding: 48px 0;
@@ -431,6 +356,129 @@ nav .hamburger-manu {
     margin-top: 18px;
 }
 /* ---------- BMI calculator section styles end here ---------- */
+
+/* ---------- Team section styles start from here ---------- */
+.team {
+    margin: 80px 0;
+}
+.team > .section-heading {
+    text-align: center;
+    width: 670px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+.team .team-card-container {
+    padding: 20px;
+    background: var(--footer-bg);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.team .team-card-container .card {
+    background: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 0 0 16px 20px;
+}
+.team .team-card-container .card h4 {
+    color: var(--bg-white);
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 4px;
+}
+.team .team-card-container .card p {
+    color: var(--text-color-1);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.team .team-card-container .card2 {
+    background: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card3 {
+    background: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card4 {
+    background: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card5 {
+    background: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card6 {
+    background: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ---------- Team section styles end here ---------- */
+
+/* ---------- Blog section styles start from here ---------- */
+.blog-part {
+    margin-bottom: 80px;
+}
+.blog-part > .container > .section-heading {
+    width: 600px;
+    text-align: center;
+    margin-inline: auto;
+}
+.blog-part .blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+.blog-part .blog-container .blog .blog-img img{
+    border-radius: 18px 18px 0 0;
+}
+.blog-part .blog-container .blog .blog-con {
+    padding: 12px;
+    background: var(--footer-bg);
+    border-radius: 0 0 18px 18px;
+}
+.blog-part .blog-container .blog .blog-con .blog-title{
+    font-size: 1.25rem;
+    color: var(--bg-white);
+    line-height: 120%;
+    margin-bottom: 12px;
+}
+.blog-part .blog-container .blog .blog-con .labels{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+.blog-part .blog-container .blog .blog-con .labels span{
+    padding: 4px 12px;
+    font-size: 10px;
+    background: var(--tartiary-bg);
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+/* ---------- Blog section styles end here ---------- */
 
 /* ---------- Footer section styles start from here ---------- */
 footer {

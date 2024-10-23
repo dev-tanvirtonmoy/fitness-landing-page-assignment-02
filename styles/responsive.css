@@ -73,6 +73,19 @@
     }
     /* ---------- Run end here ---------- */
 
+    /* ---------- BMI calculator start from here ---------- */
+    main .bmi-calc > .container > .section-heading {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .bmi-calc .bmi-calc-container > .container {
+       flex-direction: column;
+       gap: 40px;
+    }
+    /* ---------- BMI calculator end here ---------- */
+    
     /* ---------- Team start from here ---------- */
     main .team {
         margin: 40px 0;
@@ -86,18 +99,17 @@
     }
     /* ---------- Team end here ---------- */
 
-    /* ---------- BMI calculator start from here ---------- */
-    main .bmi-calc > .container > .section-heading {
+    /* ---------- Blog start from here ---------- */
+    main .blog-part {
+        margin-bottom: 40px;
+    }
+    main .blog-part > .container > .section-heading {
         width: 100%;
-        margin-left: 0;
-        margin-bottom: 32px;
-        /* margin-left: 190px; */
     }
-    .bmi-calc .bmi-calc-container > .container {
-       flex-direction: column;
-       gap: 40px;
+    main .blog-part .blog-container {
+        grid-template-columns: repeat(1,1fr);
     }
-    /* ---------- BMI calculator end here ---------- */
+    /* ---------- Blog end here ---------- */
 
     /* ---------- Footer start from here ---------- */
     footer .footer-item-container {
