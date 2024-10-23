@@ -208,7 +208,7 @@ nav .hamburger-manu {
 
 /* ---------- Habit section styles from here ---------- */
 .habit {
-    padding: 100px 0;
+    margin: 80px 0;
 }
 .habit .container > .section-heading {
     text-align: center;
@@ -270,6 +270,81 @@ nav .hamburger-manu {
 }
 /* ---------- Run section end here ---------- */
 
+/* ---------- Team section styles start from here ---------- */
+.team {
+    margin: 80px 0;
+}
+.team > .section-heading {
+    text-align: center;
+    width: 670px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+}
+.team .team-card-container {
+    padding: 20px;
+    background: var(--footer-bg);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.team .team-card-container .card {
+    background: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 0 0 16px 20px;
+}
+.team .team-card-container .card h4 {
+    color: var(--bg-white);
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 4px;
+}
+.team .team-card-container .card p {
+    color: var(--text-color-1);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.team .team-card-container .card2 {
+    background: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card3 {
+    background: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card4 {
+    background: url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card5 {
+    background: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.team .team-card-container .card6 {
+    background: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ---------- Team section styles end here ---------- */
 
 /* ---------- Footer section styles start from here ---------- */
 footer {
