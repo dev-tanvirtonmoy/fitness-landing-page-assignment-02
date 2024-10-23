@@ -34,6 +34,14 @@
     header .banner .banner-content > p {
         width: 274px;
     }
+    header .banner .banner-content .btn-container {
+        justify-content: center;
+    }
+    header .banner .banner-content .btn-container > button {
+        text-align: center;
+        padding: 16px 16px;
+        font-size: 1rem;
+    }
     header .banner .banner-img > .bg-img-tag {
         bottom: 230px;
         left: -30px;
