@@ -146,9 +146,9 @@ nav .hamburger-manu {
     margin-bottom: 28px;
 }
 .banner .banner-content .banner-title > span{
+    font-size: 120px;
     font-weight: 400;
     font-family: 'Miama', sans-serif;
-    font-family: ;
     letter-spacing: 3px;
 }
 .banner .btn-container {
@@ -345,6 +345,92 @@ nav .hamburger-manu {
     background-position: center;
 }
 /* ---------- Team section styles end here ---------- */
+
+/* ---------- BMI calculator section styles start from here ---------- */
+.bmi-calc > .container > .section-heading {
+    width: 671px;
+    margin-left: 190px;
+    margin-bottom: 80px;
+}
+.bmi-calc .bmi-calc-container {
+    padding: 48px 0;
+    background: var(--secondary-bg);
+}
+.bmi-calc .bmi-calc-container > .container {
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-calc .bmi-calc-container .bmi-chart {
+    flex: 1;
+}
+.bmi-calc .bmi-calc-container .bmi-chart .bmi-chart-content{
+    width: 350px;
+}
+.bmi-calc .bmi-calc-container .bmi-chart .chart-heading {
+    color: var(--bg-white);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+.bmi-calc .bmi-calc-container .bmi-chart table {
+    border: 1px solid var(--footer-bg);
+    border-collapse: collapse;
+    width: 100%;
+}
+.bmi-calc .bmi-calc-container .bmi-chart table thead th {
+    font-size: 1rem;
+    color: var(--bg-white);
+    font-weight: 500;
+    line-height: 120%;
+    text-align: start;
+    padding: 12px;
+    border: 1px solid var(--footer-bg);
+}
+.bmi-calc .bmi-calc-container .bmi-chart table tbody td {
+    padding: 12px;
+    font-size: 0.875rem;
+    color: var(--text-color-1);
+    border: 1px solid var(--footer-bg);
+}
+.bmi-calc .bmi-calc-container .bmi-calculator {
+    flex: 1;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator .bmi-calculator-heading {
+    color: var(--bg-white);
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form {
+    margin-top: 30px;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form div {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form div input, select{
+    border-radius: 8px;
+    background: var(--footer-bg);
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form input::placeholder, select{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form select option {
+    background: var(--bg-white);
+}
+.bmi-calc .bmi-calc-container .bmi-calculator form .btn-primary {
+    margin-top: 18px;
+}
+/* ---------- BMI calculator section styles end here ---------- */
 
 /* ---------- Footer section styles start from here ---------- */
 footer {
