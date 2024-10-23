@@ -58,9 +58,6 @@
     main .habit .container > .section-heading {
         width: 100%;
     }
-    main .habit .container > .section-heading h3 {
-
-    }
     main .habit .habit-items {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -91,6 +88,10 @@
     .bmi-calc .bmi-calc-container > .container {
        flex-direction: column;
        gap: 40px;
+    }
+
+    main .bmi-calc .bmi-calc-container .bmi-chart .bmi-chart-content{
+        width: 100%;
     }
     /* ---------- BMI calculator end here ---------- */
     
